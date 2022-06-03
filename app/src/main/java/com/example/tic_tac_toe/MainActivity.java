@@ -51,19 +51,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-    public void reset(View view){
-        GridLayout gridLayout=findViewById(R.id.gridLayout);
-        int total_image=gridLayout.getChildCount();
-        for(int i=0;i<total_image;i++){
-            ImageView v=(ImageView) gridLayout.getChildAt(i);
-            v.setImageDrawable(null);
-        }
-        isWinner=false;
-        imageClicked=-1;
-        p=1;
-        for(int i=0;i<gameState.length;i++)
-            gameState[i]=-1;
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
