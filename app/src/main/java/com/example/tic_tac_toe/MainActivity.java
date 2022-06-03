@@ -58,6 +58,12 @@ public class MainActivity extends AppCompatActivity {
             ImageView v=(ImageView) gridLayout.getChildAt(i);
             v.setImageDrawable(null);
         }
+        isWinner=false;
+        imageClicked=-1;
+        p=1;
+        for(int i=0;i<gameState.length;i++)
+            gameState[i]=-1;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
