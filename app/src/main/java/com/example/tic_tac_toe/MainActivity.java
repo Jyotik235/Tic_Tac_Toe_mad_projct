@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 if (gameState[winningStates[i][0]] == gameState[winningStates[i][1]] && gameState[winningStates[i][1]] == gameState[winningStates[i][2]] && gameState[winningStates[i][0]] > -1) {
                     //Toast.makeText(this, "Winner is Player " + (p == 0 ? 1 : 2), Toast.LENGTH_SHORT).show();
                     new AlertDialog.Builder(this)
-                            .setIcon(R.drawable.ic_celebration)
+                            .setIcon(R.drawable)
                             .setTitle("Congratulations")
                             .setMessage("Winner is Player " + (p == 0 ? 1 : 2))
                             .setNeutralButton("Ok", new DialogInterface.OnClickListener() {
