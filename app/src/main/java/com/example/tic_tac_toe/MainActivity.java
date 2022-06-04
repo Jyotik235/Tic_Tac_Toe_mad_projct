@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
                                 public void onClick(DialogInterface dialogInterface, int i) {
                                     Toast.makeText(getApplicationContext(), "congratulations", Toast.LENGTH_SHORT).show();
                                 }
-                            }).show();*/
+                            }).show();..*/
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
